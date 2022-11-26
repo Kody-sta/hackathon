@@ -20,7 +20,7 @@
 
         <!----- main ----->
         <div style="margin:0px;padding:0px;" align="center">
-          <table width="500px" style="border-collapse: collapse;border:1px solid #000000;background-color:#FFFFFF;color:#000000;text-align:left;">
+          <table width="80%" style="border-collapse: collapse;border:1px solid #000000;background-color:#FFFFFF;color:#000000;text-align:left;">
             <tbody>
               <tr>
                 <th style="border:1px solid #000000;background-color:#808080;color:#FFFFFF;text-align:center;">
