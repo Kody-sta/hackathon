@@ -14,20 +14,22 @@ body{
   width: 100%;
   margin-bottom: 20px;
 }
-.contact-item,
-.contact-body {
+.contact-header,
+.contact-data {
   padding: 20px;
   border: 1px solid #ccc;
 }
 
-.contact-item {
+.contact-header {
   text-align: left; /* テキスト左寄せ */
   width: 30%; /* 横幅30%指定（グレーの背景色部分） */
   background-color: #eee; /* グレーの背景色 */
 }
 
-.contact-body {
-  width: 70%; /* 横幅70%指定（白背景色部分） */
+.contact-data {
+  /* width: 800px; */
+  width: 70%; 
+  /* 横幅70%指定（白背景色部分） */
 }
 
 .inputs {
@@ -38,5 +40,16 @@ body{
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  max-width: 400px;
+}
+
+.form-textarea {
+  resize: none;
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
