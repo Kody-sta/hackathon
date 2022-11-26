@@ -36,35 +36,19 @@
                   メモ&nbsp;
                 </th>
               </tr>
+              @foreach ($bookmarkers as $item)
               <tr>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                <td style="border:1px solid #000000;text-align:left;">{{ $item->create_time }}&nbsp;
                 </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                <td style="border:1px solid #000000;text-align:left;">{{ $item->title }}&nbsp;
                 </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                <td style="border:1px solid #000000;text-align:left;">
+                    <a href="{{$item->URL}}" target="_blanck">{{ $item->URL }}&nbsp;
                 </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;</td>
-              </tr>
-              <tr>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
-                </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
-                </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
-                </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                <td style="border:1px solid #000000;text-align:left;">{{ $item->memo }}&nbsp;
                 </td>
               </tr>
-              <tr>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
-                </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
-                </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
-                </td>
-                <td style="border:1px solid #000000;text-align:left;">&nbsp;
-                </td>
-              </tr>
+              @endforeach
             </tbody>
           </table>
         </div>
