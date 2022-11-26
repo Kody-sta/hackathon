@@ -14,23 +14,64 @@
     </head>
     <body>
         <!----- header----->
-        <header>ヘッダー</header>
-        <nav>ナビ</nav>
+        <header></header>
+        <nav></nav>
         <!----- /header ----->
 
         <!----- main ----->
-        <article>
-            <h1>テストテスト</h1>
-            <section>
-                <h2>見出し２</h2>
-                <p>コンテンツの内容</p>
-                <p>テストテスト</p>
-            </section>
-        </article>
+        <div style="margin:0px;padding:0px;" align="center">
+          <table width="500px" style="border-collapse: collapse;border:1px solid #000000;background-color:#FFFFFF;color:#000000;text-align:left;">
+            <tbody>
+              <tr>
+                <th style="border:1px solid #000000;background-color:#808080;color:#FFFFFF;text-align:center;">
+                  日付&nbsp;
+                </th>
+                <th style="border:1px solid #000000;background-color:#808080;color:#FFFFFF;text-align:center;">
+                  タイトル&nbsp;
+                </th>
+                <th style="border:1px solid #000000;background-color:#808080;color:#FFFFFF;text-align:center;">
+                  URL&nbsp;
+                </th>
+                <th style="border:1px solid #000000;background-color:#808080;color:#FFFFFF;text-align:center;">
+                  メモ&nbsp;
+                </th>
+              </tr>
+              <tr>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+              </tr>
+              <tr>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+                <td style="border:1px solid #000000;text-align:left;">&nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <!----- /main ----->
 
         <!----- footer ----->
-        <footer>フッター</footer>
+        <footer></footer>
         <!----- /footer ----->
     </body>
 </html>
