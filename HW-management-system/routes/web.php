@@ -17,4 +17,6 @@ use App\Http\Controllers\BookmarkerController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// ブックマーク一覧のルーティング
 Route::get('/index', [BookmarkerController::class, 'index']);

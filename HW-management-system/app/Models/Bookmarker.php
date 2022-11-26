@@ -9,5 +9,6 @@ class Bookmarker extends Model
 {
     use HasFactory;
 
+    // bookmarkerデータベースのbookmarksテーブルを取得
     protected $table = "bookmarks";
 }
