@@ -34,7 +34,7 @@
                 </tr>
                 <tr>
                     <th class="contact-item"><label class="label">メモ:</label></th>
-                    <td>  class="contact-body"
+                    <td class="contact-body">
                         <textarea class="form-textarea" name="memo">
                     </td>
                 </tr>
