@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Register extends Model
 {
     use HasFactory;
+
+    // bookmarkerデータベースのbookmarksテーブルを取得
+    protected $table = "bookmarks";
 }

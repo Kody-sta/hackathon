@@ -51,7 +51,7 @@
                         @foreach ($bookmarkers as $item)
                         <tr>
                             <td style="border:1px solid #000000">
-                                {{ $item->create_time }}
+                                {{ $item->created_at }}
                             </td>
                             <td style="border:1px solid #000000">
                                 {{ $item->title }}
