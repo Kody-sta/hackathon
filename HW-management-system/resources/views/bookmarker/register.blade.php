@@ -72,8 +72,9 @@ body{
         </div>
     </header>
     <div class="container mt-5">
-        <form method="post" action="resisterfile.blade.php">
-            <table class="table table-dark table-borderless"
+        <form method="post" action="/register">
+            @csrf
+            <table class="table table-dark table-borderless">
                 <tr class="row">
                     <th class="col-4">タイトル</th>
                     <td class="contact-data col-8">
@@ -83,7 +84,7 @@ body{
                 <tr class="row">
                     <th class="col-4">URL</th>
                     <td class="contact-data col-8">
-                        <input class="inputs" type="text" name="url">
+                        <input class="inputs" type="text" name="URL">
                     </td>
                 </tr>
                 <tr class="row">
@@ -95,7 +96,7 @@ body{
                 </tr>
             </table>
             <div class="btn-area">
-                <button type="button" class="btn btn-dark">登録する</button>
+                <button type="submit" class="btn btn-dark">登録する</button>
             </div>
         </form>
     </div>

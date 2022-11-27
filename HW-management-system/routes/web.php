@@ -21,4 +21,8 @@ Route::get('/', function () {
 
 // ブックマーク一覧のルーティング
 Route::get('/index', [BookmarkerController::class, 'index']);// 一覧表示
-Route::get('/register', [RegisterController::class,'index']);// ブックマークの一覧表示
+Route::get('/register',[RegisterController::class,'index']);//入力フォーム表示
+Route::post('/create',[RegisterController::class,'create']);//タスク追加
+Route::post('/edit',[RegisterController::class,'edit']);//タスク更新
+Route::post('/delete',[RegisterController::class,'delete']);//タスク削除
+Route::resource('register', RegisterController::class);
