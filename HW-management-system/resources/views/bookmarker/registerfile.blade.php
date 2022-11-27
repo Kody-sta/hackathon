@@ -5,40 +5,45 @@
  <title>入力画面</title>
  <meta name="description" content="">
  <link rel="stylesheet" href="registerfile.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
  <script src="registerfile.js"></script>
  </head>
- <body>
-    <div class="contact">
+ <body style="background-color: #696969;">
+    <header class="m-3" style="borderBottom: solid;">
+        <div class="logomark">
+            <img src="{{ asset('image/bookmarkerLogo.jpg') }}" alt="ロゴ" width="150px">
+        </div>
+    </header>
+    <div class="container mt-5">
         <form method="post" action="resisterfile.blade.php">
-            <table class="contact-table">
-                <tr>
-                    <th class="contact-header"><label class="label">日付:</label></th>
-                    <td class="contact-data">
-                        <input class="inputs" type="text" name="title">
+            <table class="table table-dark table-borderless">
+                <tr class="row">
+                    <th class="col-4">日付</th>
+                    <td class="contact-data col-8">
+                        <input class="inputs" type="text" name="date">
                     </td>
-                </tr>       
-                <tr>
-                    <th class="contact-header"><label class="label">タイトル:</label></th>
-                    <td class="contact-data">
+                </tr>
+                <tr class="row">
+                    <th class="col-4">タイトル</th>
+                    <td class="contact-data col-8">
                         <input class="inputs" type="text" name="title">
                     </td>
                 </tr>
-                <tr>
-                    <th class="contact-header"><label class="label">URL:</label></th>
-                    <td class="contact-data">
+                <tr class="row">
+                    <th class="col-4">URL</th>
+                    <td class="contact-data col-8">
                         <input class="inputs" type="text" name="url">
                     </td>
                 </tr>
-                <tr>
-                    <th class="contact-header"><label class="label">メモ:</label></th>
-                    <td class="contact-data">
-                        <!-- <input class="inputs" type="text" name="memo"> -->
+                <tr class="row">
+                    <th class="col-4">メモ</th>
+                    <td class="contact-data col-8">
                         <textarea class="form-textarea" name="memo"></textarea>
                     </td>
-                </tr>
+                </tr>       
             </table>
             <div class="btn-area">
-                <input type="submit" value="登録する">
+                <button type="button" class="btn btn-dark">登録する</button>
             </div>
         </form>
     </div>

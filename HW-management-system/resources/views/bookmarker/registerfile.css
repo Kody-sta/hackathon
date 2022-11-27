@@ -17,7 +17,7 @@ body{
 .contact-header,
 .contact-data {
   padding: 20px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
 }
 
 .contact-header {
