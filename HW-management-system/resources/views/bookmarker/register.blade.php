@@ -66,7 +66,7 @@ body{
  <script src="registerfile.js"></script>
  </head>
  <body style="background-color: #696969;">
-    <header class="m-3" style="borderBottom: solid;">
+    <header class="m-3">
         <div class="logomark">
             <img src="{{ asset('image/bookmarkerLogo.jpg') }}" alt="ロゴ" width="150px">
         </div>

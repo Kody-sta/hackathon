@@ -16,7 +16,7 @@
         <script src="main.js"></script>
     </head>
     <body class="mx-5" style="background-color: #696969; color: white;">
-        <header class="d-flex justify-content-around mt-3 mb-5" style="borderBottom: solid;">
+        <header class="d-flex justify-content-around mt-3 mb-5">
             <div class="logomark">
                 <a href="/index"><img src="{{ asset('image/bookmarkerLogo.jpg') }}" alt="ロゴ" width="150px"></a>
             </div>
@@ -57,7 +57,7 @@
                                 {{ $item->title }}
                             </td>
                             <td style="border:1px solid #000000">
-                                <a href="{{$item->URL}}" target="_blanck">{{ $item->URL }}
+                                <a href="{{$item->URL}}" target="_blank">{{ $item->URL }}
                             </td>
                             <td style="border:1px solid #000000">
                                 {{ $item->memo }}
