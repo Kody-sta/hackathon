@@ -1,5 +1,5 @@
 // サーバ直下で実行するコード
-CREATE DATABASE bookmarkerDEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE bookmarker DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 // boolmarkerの直下で実行するコード
 DROP TABLE IF EXISTS bookmarks;
