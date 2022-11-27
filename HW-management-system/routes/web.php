@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookmarkerController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,5 @@ Route::get('/', function () {
 });
 
 // ブックマーク一覧のルーティング
-Route::get('/index', [BookmarkerController::class, 'index']);
+Route::get('/index', [BookmarkerController::class, 'index']);// 一覧表示
+Route::get('/register', [RegisterController::class,'index']);// ブックマークの一覧表示
