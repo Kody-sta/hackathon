@@ -73,13 +73,7 @@ body{
     </header>
     <div class="container mt-5">
         <form method="post" action="resisterfile.blade.php">
-            <table class="table table-dark table-borderless">
-                <tr class="row">
-                    <th class="col-4">日付</th>
-                    <td class="contact-data col-8">
-                        <input class="inputs" type="text" name="date">
-                    </td>
-                </tr>
+            <table class="table table-dark table-borderless"
                 <tr class="row">
                     <th class="col-4">タイトル</th>
                     <td class="contact-data col-8">
@@ -95,6 +89,7 @@ body{
                 <tr class="row">
                     <th class="col-4">メモ</th>
                     <td class="contact-data col-8">
+
                         <textarea class="form-textarea" name="memo"></textarea>
                     </td>
                 </tr>
